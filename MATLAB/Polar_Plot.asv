@@ -9,23 +9,31 @@ close all
 % 0.25 0.75 hyper-cardioid 
 % 0 1 figure-8 (bi-directional)
 
-%Variables
-a = 0; %Constant
-b = 1; %Coefficient
-%Output
-polarpatern = zeros(360,3); %dB output array
+%Input Variables
+a = 0.5; %Constant
+b = 0.5; %Coefficient
+
+%Output Variables 
+polpat = zeros(36,3); %dB output array
 
 %Calculate Magnitude Responce for each Angle
-for i = 1:360 %For all Azimuthal Angles
-    g = a + (b*(cos(deg2rad(i))subtitleString)); %Calculate Magnitude Responce
-    polarpatern(i,1) = 10 * log10(abs(g)); %Convert from Mag to dB
+for i = 1:36 %For all Azimuthal Angles
+    theta = i * 10;
+    if theta == 0
+        theta = 360;
+    end
+    g = (a + (b*(cos(deg2rad(theta))))); %Calculate Magnitude Responce
+    polpat(i,1) = g;10 * log10(abs(g)); %Convert from Mag to dB
+    polpat(i, 2) = theta; %Azimuthal Angle
 end
 
-
-polarpatern(polarpatern < -30) = -30; %Limit responce to -30dB 
+%Convert to Cartesian
+polpat(polpat < -30) = -30; %Limit responce to -30dB 
+[X,Y,Z] = pol2cart(polpat(:,2),polpat(:,1), zeros(36,1)); %Cartesian
+plot()
 
 axes = polaraxes;
-h = polarplot(axes, polarpatern);
+h = polarplot(axes, polpat);
 axes.ThetaZeroLocation = 'top';
 rlim([-30 0])
 rticks([-24,-18,-12,-6])
@@ -33,12 +41,4 @@ rticklabels(["-24dB","-18dB","-12dB","-6dB","0dB"])
 title("Cardioid Polar Pattern")
 subtitleString = strcat('a =  ', num2str(a), ', b =  ', num2str(b));
 subtitle(subtitleString)
-set(h,'LineWidth',3); %sets the 'LineWidth' property of the plotted line only
-
-%3D Plot
-theta = [1;1;360];
-phi = polarpatern;
-rho = 1;
-[theta,phi] = meshgrid(theta,phi);
-[x,y,z] = sph2cart(theta,phi,rho);
-surf(x,y,z)
+set(h,'LineWidth',2); %sets the 'LineWidth' property of the plotted line only

@@ -6,7 +6,7 @@ sCustMike = phased.CustomMicrophoneElement;
 sCustMike.PolarPatternFrequencies = [500 1000];
 sCustMike.PolarPattern = mag2db([...
     0.5+0.5*cosd(sCustMike.PolarPatternAngles);...
-    0.5+0.5*cosd(sCustMike.PolarPatternAngles)]);
+    0.6+0.4*cosd(sCustMike.PolarPatternAngles)]);
 
 %Plot the 3-D magnitude pattern.
 fc = 1000;

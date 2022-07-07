@@ -8,7 +8,7 @@ Theta = 90; %Source Direction (angle of incidence) in degrees
 MicrophoneSpacing = 0.17; %Microphone Spacing in Meters 
 MicrophoneAngle = 110; %Microphone Angle in degrees
 
-aa = 0.5;
+a = 0.5;
 b = 0.5;
 
 %Binaural Variables
@@ -38,7 +38,7 @@ for n = -180:179
     end
     
     MicValues(index, 3) = mag2db((0.5 + 0.5*cosd(Theta - a/2))/(0.5 + 0.5*cosd(Theta + a/2))); %Calculate Interchannel Level Difference 
-    MicValues(index, 3) = mag2db(aa + b*tand(Theta - a/2));
+    MicValues(index, 3) = mag2db(a + b*tand(Theta - a/2));
     MicValues(index, 4 ) = mag2db((1 + cosd(Theta + a/2))); %Left Microphone
     MicValues(index, 5) = mag2db((1 + cosd(Theta - a/2))); %Right Microphone
    

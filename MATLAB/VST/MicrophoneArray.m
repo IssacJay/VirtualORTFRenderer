@@ -1,7 +1,7 @@
 %Microphone Array Properties
-function [OutArray] = MicrophoneArray(XSpacing, YSpacing, MicAngle, MicArray)
+function [OutArray] = MicrophoneArray(XSpacing, YSpacing, MicAngle)
 % Create an arbitrary geometry array
-%MicArray = phased.ConformalArray;%Create Microphone Array Element
+MicArray = phased.ConformalArray;%Create Microphone Array Element
 MicArray.ElementPosition = [(XSpacing/2) -(XSpacing/2) (XSpacing/2) -(XSpacing/2);-(YSpacing/2) -(YSpacing/2) (YSpacing/2) (YSpacing/2);0 0 0 0]; %Create position matrix for each microphone
 MicArray.ElementNormal = [-(MicAngle/2) -(180 - MicAngle/2) (MicAngle/2) (180 - MicAngle/2);0 0 0 0]; %Create angle matrix for each microphone
 

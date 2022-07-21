@@ -1,4 +1,4 @@
-# VirtualORTFRenderer
+# Virtual Stereo Microphone Renderer
 [Virtual Stereo Microphone Renderer for 3D Audio](https://www.issacthomas.co.uk/virtualortf)
 
 

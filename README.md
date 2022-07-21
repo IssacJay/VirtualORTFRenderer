@@ -1,7 +1,5 @@
 # VirtualORTFRenderer
-[Website Link](https://www.issacthomas.co.uk/virtualortf)
-
- Virtual Stereo Microphone Renderer for 3D Audio
+[Virtual Stereo Microphone Renderer for 3D Audio](https://www.issacthomas.co.uk/virtualortf)
 
 
 

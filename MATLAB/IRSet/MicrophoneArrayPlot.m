@@ -46,7 +46,7 @@ for a = 1:aziLength % Each Azimuth Angle
         ICTD_ae = ICTD(ang); % Get tau
         ICTDTable(a,e) = (ICTD_ae(1) - ICTD_ae(2)); % Calculate time difference
 
-        resp = Array([31.5,63,125, 250, 500, 1000, 2000, 4000, 8000, 16000], ang);
+        resp = Array([31.5,63,125, 250, 500, 1000, 2000, 4000, 8000, 16000], ang); %Source Frequency, Source Angle
         resp = sum(resp, [2 3]); % Get summed level of left and right channel
         ICLDTable(a,e) = mag2db(resp(2)/resp(1)); %Get ICLD
     end
@@ -54,12 +54,11 @@ end
 
 %% Create Figure
 figure(1)
-
 %% Plot 2D Polar Plot
 format = 'polar';
 plotType = 'powerdb';
 plotStyle = 'Overlay';
-subplot(2,2,1)
+subplot(1,2,1)
 pattern(Array, [125, 1000, 2000], -180:180, 0, 'PropagationSpeed', PropagationSpeed,...
     'CoordinateSystem', format ,'weights', w, ...
     'Type', plotType, 'PlotStyle', plotStyle);
@@ -69,7 +68,7 @@ format = 'polar';
 cutAngle = 45;
 plotType = 'powerdb';
 plotStyle = 'Overlay';
-subplot(2,2,2)
+subplot(1,2,2)
 pattern(Array, [125, 1000, 2000], -180:180, cutAngle, 'PropagationSpeed', PropagationSpeed,...
     'CoordinateSystem', format ,'weights', w, ...
     'Type', plotType, 'PlotStyle', plotStyle);
@@ -77,15 +76,15 @@ pattern(Array, [125, 1000, 2000], -180:180, cutAngle, 'PropagationSpeed', Propag
 % % Plot 3D Polar Plot
 % format = 'polar';
 % plotType = 'powerdb';
-% subplot(2,2,2)
+% subplot(3,2,2)
 % pattern(Array, 1000, 'PropagationSpeed', PropagationSpeed,...
 %     'CoordinateSystem', format,'weights', w(:,1),...
 %     'ShowArray',false,'ShowLocalCoordinates',true,...
 %     'ShowColorbar',true,'Orientation',[0;0;0],...
 %     'Type', plotType);
-
+figure(2)
 %% Plot ICTD 3D
-subplot(2,2,3);
+subplot(2,2,1);
 [X1,Y1] = meshgrid(-180:5:180,-90:5:90);
 Z1 = ICTDTable';
 itd = surf(X1,Y1,Z1);
@@ -103,7 +102,7 @@ colorbar
 
 
 %% Plot ICLD 3D
-subplot(2,2,4);
+subplot(2,2,2);
 [X2,Y2] = meshgrid(-180:5:180,-90:5:90);
 Z2 = ICLDTable';
 icld = surf(X2,Y2,Z2);
@@ -120,7 +119,17 @@ zlabel('Level Difference (dB)')
 colorbar
 
 %% Plot ICTD 2D
+ICTD_2D = ICTDTable(:,19)';
+subplot(2,2,3)
+xlim([-180 180]);
+ylim([-0.001 0.001])
+plot([-180:5:180],ICTD_2D);
 
-
+%% Plot ICLD 2D
+ICLD_2D = ICLDTable(:,19);
+subplot(2,2,4)
+plot([-180:5:180],ICLD_2D);
+xlim([-180 180]);
+ylim([-20 20]);
 sgtitle(strcat('Simulated Spatial Characteristics of', ' ', ArrayName, ' Microphone Array:', ' ', string(MicSpacing), 'm/', string(MicAngle), '°'));
 

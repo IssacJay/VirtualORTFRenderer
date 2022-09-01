@@ -1,7 +1,7 @@
 %% Get Results from Localisation Test
 clc;
 %% Input Variables
-data = table2cell(ListeningTestRawDataS1); %Listening Test Data
+data = table2cell(ListeningTestRawData1); %Listening Test Data
 numRows = height(data); %Number of results
 
 %% Output Variables
@@ -17,20 +17,20 @@ localData = table(Renderer,File,SourceAzi,SourceEle,Azi,Ele, FrontBack);
 
 %% Localisation Table
 for row = 1:numRows
-    if string(data(row,12)) == "localization" % Column header = 'wm_type'"
+    if string(data(row,19)) == "localization" % Column header = 'wm_type'"
         %% Get Renderer
-        r_Rend = string(data(row,21)); % Column header = 'responses_stimulus'
+        r_Rend = string(data(row,8)); % Column header = 'responses_stimulus'
         r_Rend = strsplit(r_Rend, '_'); % Remove suffix
         r_Rend = r_Rend(1); % Use prefix (rendering format)
         %% Get File Name and Coordinate Variables
-        r_File = string(data(row,2)); % Column header = 'responses_name'
+        r_File = string(data(row,21)); % Column header = 'responses_name'
         [~,r_file,~]=fileparts(r_File); %Get Filename from full file
         azi_ele = strsplit(r_file, '_'); %Split filename by '_'
         SourceAzi = str2num(azi_ele(4));
         SourceEle = str2num(azi_ele(5));
         
         %% Get User Coordinate Data
-        Coord = string(data(row,19)); % Column header = 'responses_position' 
+        Coord = string(data(row,7)); % Column header = 'responses_position' 
         Coord = extractNumFromStr(Coord); %Get Numbers from String
         [Th,Phi,~] = cart2sph(Coord(1),-Coord(3),Coord(2) - 125); 
         Th = rad2deg(Th);

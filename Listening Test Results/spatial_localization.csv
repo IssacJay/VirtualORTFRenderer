@@ -1,0 +1,109 @@
+session_test_id,,headphone_Type,noise_cancelling,background_noise,listening_test_experience,professional,trial_id,name,stimulus,position_x,position_y,position_z
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-22.5,125,5.671875
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-41.5,125,-2.328125
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-27.5,125,1.671875
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,37.5,125,-5.328125
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-47.5,125,1.671875
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-30.5,125,-0.328125
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,36.5,125,0.671875
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-26.7890625,125,-0.328125
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-19.7890625,125,1.671875
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,29.2109375,125,-0.328125
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-44.5,125,7.671875
+MicArray_MUSHRA,ATH-M50x,overEar,unsure,1,yes,no,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,47.5,125,7.671875
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-29.546875,125,-1.0625
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-27.546875,125,9.9375
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-45.546875,125,7.9375
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,28.453125,114.0625,-0.0625
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-26.546875,125,-2.0625
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-16.546875,125,8.9375
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,51.453125,125,11.9375
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-37.546875,125,8.9375
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-48.546875,125,32.9375
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,30.453125,125,-2.0625
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-66.546875,122.0625,-2.0625
+MicArray_MUSHRA,"bose comfort 25",overEar,yes,1,yes,yes,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,41.453125,125,0.9375
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-67.796875,125,-34.125
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-61.796875,125,17.875
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-78.796875,125,-29.125
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,84.203125,125,-27.125
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-45.796875,125,-45.125
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-70.796875,125,47.875
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,60.203125,125,55.875
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-72.796875,167.125,0.875
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-65.796875,125,-64.125
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,75.203125,160.125,-32.125
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-80.796875,125,6.875
+MicArray_MUSHRA,"Audio Technica ATH M50x",overEar,no,0,yes,yes,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,67.203125,125,-15.125
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-100.484375,125,83.875
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-33.484375,125,-4.125
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-75.484375,125,60.875
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,67.515625,125,-70.125
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-36.484375,125,-29.125
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-33.484375,125,17.875
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,82.515625,125,-47.125
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-100,125,0
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-181.484375,125,82.875
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,61.515625,125,16.875
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-67.484375,125,37.875
+MicArray_MUSHRA,"AKG K240 MKII",overEar,no,2,no,yes,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,85.515625,125,-64.125
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-81.400024414062,90.766662597656,35.233352661133
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-83.100006103516,55.766662597656,-46.766662597656
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-78.100006103516,125,67.233337402344
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,99.899993896484,125,17.233337402344
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-112.40002441406,97.766662597656,-8.7666625976562
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-79.400024414062,46.766662597656,46.233337402344
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,133.59997558594,153.76666259766,27.233337402344
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-109.40002441406,93.766662597656,-32.766662597656
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-109.40002441406,138.76666259766,29.233337402344
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,106.59997558594,101.76664733887,31.233337402344
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-74.400024414062,151.76666259766,57.233352661133
+MicArray_MUSHRA,Sony,inEar,no,1,yes,no,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,91.599975585938,157.76666259766,56.233352661133
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-100,125,0
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-117.80000305176,125,-55.362503051758
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-123.80000305176,125,35.637496948242
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,99.199996948242,125,19.637496948242
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-103.40002441406,50.362518310547,26.637496948242
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-111.40002441406,141.36251831055,-0.36250305175781
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,98.599975585938,85.362518310547,24.637496948242
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-107.80000305176,72.362518310547,-6.3625106811523
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-104.40002441406,129.36251831055,-28.362503051758
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,101.19999694824,149.36251831055,17.637496948242
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-99.9375,125,0.63748168945312
+MicArray_MUSHRA,"Beyerdynamic DT770 Pro 250Ohm",overEar,no,1,no,no,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,93.0625,125,2.6374816894531
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-54.5,125,21.433349609375
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-12.199996948242,125,-2.566650390625
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-30.199996948242,125,-9.566650390625
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,21.800003051758,125,-19.566650390625
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-34.5,125,5.433349609375
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-39.5,144.56665039062,-21.566650390625
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,39.5,158.56665039062,-22.566650390625
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-35.5,125,15.433349609375
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-18.5,125,27.433349609375
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,34.5,125,-2.566650390625
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-25.5,125,-6.566650390625
+MicArray_MUSHRA,"JVC (cheap)",overEar,no,1,yes,no,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,46.5,125,4.433349609375
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-32.649993896484,125,-6.1666717529297
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-26.649993896484,125,-15.166687011719
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-23.649993896484,125,3.8333129882812
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,23.350006103516,125,-2.1666870117188
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-23.649993896484,125,-4.1666870117188
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-23.649993896484,125,-11.166687011719
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,23.350006103516,125,11.833312988281
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-23.649993896484,125,2.8333129882812
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-28.649993896484,125,-2.1666870117188
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,22.350006103516,125,-2.1666870117188
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-30.649993896484,125,-4.1666717529297
+MicArray_MUSHRA,"Beyerdynamic DT990 Pro 250 OHM",overEar,no,1,yes,yes,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,24.350006103516,125,-2.1666717529297
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_-25_15_ORTFS,ORTFS_Corno,-47.5,125,-0.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_-25_15_NOS,NOS_Corno,-85.203125,125,1.53125
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_-65_-30_NOS,NOS_Vl,-78.203125,168.46875,-36.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_140_-10_NOS,NOS_Vla,71.796875,163.46875,-32.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_-25_15_KU100,KU100_Corno,-68.5,125,-0.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_-65_-30_KU100,KU100_Vl,-38.5,125,-0.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_140_-10_KU100,KU100_Vla,100.5,125,-2.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_-25_15_ORTF,ORTF_Corno,-57.5,125,-2.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_-65_-30_ORTF,ORTF_Vl,-58.5,125,-22.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_140_-10_ORTF,ORTF_Vla,100.5,125,-7.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_-65_-30_ORTFS,ORTFS_Vl,-90.5,125,-4.46875
+MicArray_MUSHRA,"Superlux HD681",overEar,no,1,no,yes,local_1,Burst_40_30_140_-10_ORTFS,ORTFS_Vla,125.5,125,0.53125

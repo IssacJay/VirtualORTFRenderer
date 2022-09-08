@@ -1,0 +1,26 @@
+extractionTarget: 1700.000000
+extractionTollerance: 75.000000
+extractionWindowIn: 50.000000
+extractionWindowPre: 100.000000
+extractionWindowOut: 75.000000
+extractionWindowOut: 25.000000
+extractionFilenames: azi_0,0_ele_90,0.wav azi_45,0_ele_64,8.wav azi_135,0_ele_64,8.wav azi_225,0_ele_64,8.wav azi_315,0_ele_64,8.wav azi_0,0_ele_45,0.wav azi_90,0_ele_45,0.wav azi_180,0_ele_45,0.wav azi_270,0_ele_45,0.wav azi_45,0_ele_35,3.wav azi_135,0_ele_35,3.wav azi_225,0_ele_35,3.wav azi_315,0_ele_35,3.wav azi_18,4_ele_17,5.wav azi_71,6_ele_17,5.wav azi_108,4_ele_17,5.wav azi_161,6_ele_17,5.wav azi_198,4_ele_17,5.wav azi_251,6_ele_17,5.wav azi_288,4_ele_17,5.wav azi_341,6_ele_17,5.wav azi_0,0_ele_0,0.wav azi_45,0_ele_0,0.wav azi_90,0_ele_0,0.wav azi_135,0_ele_0,0.wav azi_180,0_ele_0,0.wav azi_225,0_ele_0,0.wav azi_270,0_ele_0,0.wav azi_315,0_ele_0,0.wav azi_18,4_ele_-17,5.wav azi_71,6_ele_-17,5.wav azi_108,4_ele_-17,5.wav azi_161,6_ele_-17,5.wav azi_198,4_ele_-17,5.wav azi_251,6_ele_-17,5.wav azi_288,4_ele_-17,5.wav azi_341,6_ele_-17,5.wav azi_45,0_ele_-35,3.wav azi_135,0_ele_-35,3.wav azi_225,0_ele_-35,3.wav azi_315,0_ele_-35,3.wav azi_0,0_ele_-45,0.wav azi_90,0_ele_-45,0.wav azi_180,0_ele_-45,0.wav azi_270,0_ele_-45,0.wav azi_45,0_ele_-64,8.wav azi_135,0_ele_-64,8.wav azi_225,0_ele_-64,8.wav azi_315,0_ele_-64,8.wav azi_0,0_ele_-90,0.wav
+FFEBool: 1.000000
+FFEFilt: C:\Users\audiolab\Desktop\SONY\MARC-Files\ProgramFiles_Live_Com\measurementData\020822_Issac_MicArrays\DFF's\DFF_stereo_XY.mat
+LFEBool: 1.000000
+LFEMaxFreq: 500.000000
+LFEMinFreq: 450.000000
+LFECrossover: 475.000000
+DFEBool: 1.000000
+DFENFFT: 8192
+DFETruncation: 4096
+DFEMinFreq: 20.000000
+DFEMaxFreq: 21000.000000
+DFEOctSmoothing: 4.000000
+DFERegularisationOutBand: 10.000000
+DFERegularisationInBand: 20.000000
+FinishingFiltLength: 128
+FinishingWindowIn: 40.000000
+FinishingWindowPre: 30.000000
+FinishingWindowPost: 65.000000
+FinishingWindowOut: 20.000000

@@ -65,7 +65,7 @@ for l = 1:numIR
         %% Calculate Phantom Source Shift
         shiftTD = 0.13 * (ICTD * 10000); %Phantom Shift of ICTD
         shiftLD = 0.075 * ICLD(k, 3, l); %Phantom Shift of ICLD
-        phantomShift = (shiftTD + shiftLD) * 1/2 * 100; %Phantom Source Shift
+        phantomShift = (shiftTD + shiftLD) * 100; %Phantom Source Shift
         Index(k,5,l) = phantomShift;
         %% Azimuth == 0 Set
         if Index(k, 2, l) == 0
@@ -86,6 +86,11 @@ for l = 1:numIR
     
     end
 
+    %% Normalise Phantom Source Shift
+    shiftMax = max(abs(polarCoord(1,5,:))); %Maximum Shift value from KU 100 (for normalisation of all shift)
+    shiftFactor = shiftMax/100;
+    polarCoord(:,5,:) = polarCoord(:,5,:) ./ shiftFactor; % Normalise all shift values
+
     %% 3D Plot
     % figure(1)
     % Index_2 = sortrows(Index);
@@ -104,8 +109,6 @@ for l = 1:numIR
     i_polarCoord = polarCoord(:,:,l); 
     i_polarCoord = sortrows(i_polarCoord);
     
-    
-
     %% Plot ICLD
     sub1 = subplot(3,1,1);
     hold on

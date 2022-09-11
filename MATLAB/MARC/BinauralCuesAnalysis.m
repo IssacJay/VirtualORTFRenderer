@@ -14,7 +14,7 @@ addpath(irPath); % For initial setup
 IRSet = dir(fullfile(irPath, '*.wav')); %Get all IR's in Path
 Index = zeros(length(IRSet), 5, numIR); %Azimuth, Elevation, ICLD, ICTD, Phantom Shift
 ICLD = zeros(length(IRSet), 3, numIR); %Chan L, Chan R, ICLD 
-polarCoord = zeros(9, 5, numIR);  %Azimuth, Elevation, ICLD, ICTD, Phantom Shift
+polarCoord = zeros(9, 6, numIR);  %Azimuth, Elevation, ICLD, ICTD, Phantom Shift
 
 %% Iterate through IR Sets
 for l = 1:numIR
@@ -67,6 +67,9 @@ for l = 1:numIR
         shiftLD = 0.075 * ICLD(k, 3, l); %Phantom Shift of ICLD
         phantomShift = (shiftTD + shiftLD) * 100; %Phantom Source Shift
         Index(k,5,l) = phantomShift;
+
+        %% Spectrogram
+        
         %% Azimuth == 0 Set
         if Index(k, 2, l) == 0
             if Index(k,1, l) <= 180
@@ -87,7 +90,9 @@ for l = 1:numIR
     end
 
     %% Normalise Phantom Source Shift
-    shiftMax = max(abs(polarCoord(1,5,:))); %Maximum Shift value from 
+    shiftMax = max(abs(polarCoord(:,5,1))); %Maximum Shift value from KU 100 (for normalisation of all shift)
+    shiftFactor = shiftMax/100;
+    polarCoord(:,6,l) = polarCoord(:,5,l) ./ shiftFactor; % Normalise all shift values
 
     %% 3D Plot
     % figure(1)
@@ -107,8 +112,6 @@ for l = 1:numIR
     i_polarCoord = polarCoord(:,:,l); 
     i_polarCoord = sortrows(i_polarCoord);
     
-    
-
     %% Plot ICLD
     sub1 = subplot(3,1,1);
     hold on
@@ -146,7 +149,7 @@ for l = 1:numIR
     %% Plot Phantom Shift
     sub3 = subplot(3,1,3);
     hold on
-    phShift = i_polarCoord(:,5);
+    phShift = i_polarCoord(:,6);
     ips = interp1(theta,phShift,ix,'spline');
     shift = plot(ix, ips); 
     title('Phantom Source Shift')
